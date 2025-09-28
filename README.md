@@ -8,3 +8,6 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 2. Instalar las dependencias con `npm install`
 3. Iniciar el servediro con `ng serve -o`
 4. En su navegador ingresa a `http://localhost:4200/`
+
+## Visualización Online
+Link: https://gift-app-notcompile.netlify.app/#/dashboard/trending

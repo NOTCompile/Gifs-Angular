@@ -1,0 +1,20 @@
+<div id="logo" class="my-4 px-6">
+    <h1 class="text-lg md:text-2xl font-bold text-white">{{ envs.projectName }}
+        <span class="text-blue-500">v{{ envs.version }}</span>
+    </h1>
+    <p class="text-slate-500 text-sm">{{ envs.companyLabel }}</p>
+</div>
+
+<div id="profile" class="px-6 py-10">
+    <p class="text-slate-500">Bienvenido,</p>
+    <a href="#" class="inline-flex space-x-2 items-center py-2">
+        <span>
+            <img class="rounded-full w-8 h-8"
+                src="img/User_NT.png"
+                alt="img_user">
+        </span>
+        <span class="text-base font-bold">
+            {{ envs.companyName}}
+        </span>
+    </a>
+</div>
